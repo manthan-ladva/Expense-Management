@@ -1,0 +1,103 @@
+INFO:     Will watch for changes in these directories: ['D:\\Portfolio\\Data-Analysis-Projects\\Codebasics Bootcamp\\Python\\Expense_Management']
+INFO:     Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+INFO:     Started reloader process [16276] using StatReload
+INFO:     Started server process [16272]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     127.0.0.1:59709 - "POST /analytics/ HTTP/1.1" 200 OK
+{"timestamp": "2026-01-01T17:06:52.576729", "level": "INFO", "message": "Fetching expenses", "module": "pylogger", "file": "pylogger.py", "line": 43, "request_id": "00604af6-63ef-41fa-af16-3bc90b45ddbe", "job_id": null, "task_id": null, "pipeline": "expense_api", "route": "/expenses/2024-08-01", "date": "2024-08-01"}
+{"timestamp": "2026-01-01T17:06:52.581760", "level": "INFO", "message": "Expenses fetched", "module": "pylogger", "file": "pylogger.py", "line": 43, "request_id": "00604af6-63ef-41fa-af16-3bc90b45ddbe", "job_id": null, "task_id": null, "pipeline": "expense_api", "route": "/expenses/2024-08-01", "count": 5}
+INFO:     127.0.0.1:59729 - "GET /expenses/2024-08-01 HTTP/1.1" 200 OK
+{"timestamp": "2026-01-01T17:06:57.022270", "level": "INFO", "message": "Fetching expenses", "module": "pylogger", "file": "pylogger.py", "line": 43, "request_id": "97cf986c-2c2d-4f4c-8865-f72138ee7cfa", "job_id": null, "task_id": null, "pipeline": "expense_api", "route": "/expenses/2024-08-01", "date": "2024-08-01"}
+{"timestamp": "2026-01-01T17:06:57.027075", "level": "INFO", "message": "Expenses fetched", "module": "pylogger", "file": "pylogger.py", "line": 43, "request_id": "97cf986c-2c2d-4f4c-8865-f72138ee7cfa", "job_id": null, "task_id": null, "pipeline": "expense_api", "route": "/expenses/2024-08-01", "count": 5}
+INFO:     127.0.0.1:59733 - "GET /expenses/2024-08-01 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59734 - "POST /expenses//analytics/ HTTP/1.1" 404 Not Found
+WARNING:  StatReload detected changes in 'frontend\analytics_ui.py'. Reloading...
+ {"timestamp": "2026-01-01T17:09:09.877026", "level": "INFO", "message": "Fetching expenses", "module": "pylogger", "file": "pylogger.py", "line": 43, "request_id": "a77df621-a0e4-4ef8-84c8-04a2f30a8a57", "job_id": null, "task_id": null, "pipeline": "expense_api", "route": "/expenses/2024-08-01", "date": "2024-08-01"}
+{"timestamp": "2026-01-01T17:09:09.881302", "level": "INFO", "message": "Expenses fetched", "module": "pylogger", "file": "pylogger.py", "line": 43, "request_id": "a77df621-a0e4-4ef8-84c8-04a2f30a8a57", "job_id": null, "task_id": null, "pipeline": "expense_api", "route": "/expenses/2024-08-01", "count": 5}
+INFO:     127.0.0.1:59786 - "GET /expenses/2024-08-01 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59787 - "POST /expenses//analytics/ HTTP/1.1" 404 Not Found
+{"timestamp": "2026-01-01T17:09:27.185336", "level": "INFO", "message": "Fetching expenses", "module": "pylogger", "file": "pylogger.py", "line": 43, "request_id": "8366cfbb-65d3-4f37-b1af-bee1889f0a3b", "job_id": null, "task_id": null, "pipeline": "expense_api", "route": "/expenses/2024-08-01", "date": "2024-08-01"}
+{"timestamp": "2026-01-01T17:09:27.189095", "level": "INFO", "message": "Expenses fetched", "module": "pylogger", "file": "pylogger.py", "line": 43, "request_id": "8366cfbb-65d3-4f37-b1af-bee1889f0a3b", "job_id": null, "task_id": null, "pipeline": "expense_api", "route": "/expenses/2024-08-01", "count": 5}
+INFO:     127.0.0.1:59911 - "GET /expenses/2024-08-01 HTTP/1.1" 200 OK
+{"timestamp": "2026-01-01T17:09:30.476935", "level": "INFO", "message": "Fetching expenses", "module": "pylogger", "file": "pylogger.py", "line": 43, "request_id": "d2135f52-10de-4e29-bc27-2cfa96abe7f1", "job_id": null, "task_id": null, "pipeline": "expense_api", "route": "/expenses/2024-08-01", "date": "2024-08-01"}
+{"timestamp": "2026-01-01T17:09:30.481313", "level": "INFO", "message": "Expenses fetched", "module": "pylogger", "file": "pylogger.py", "line": 43, "request_id": "d2135f52-10de-4e29-bc27-2cfa96abe7f1", "job_id": null, "task_id": null, "pipeline": "expense_api", "route": "/expenses/2024-08-01", "count": 5}
+INFO:     127.0.0.1:59914 - "GET /expenses/2024-08-01 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59915 - "POST /expenses//analytics/ HTTP/1.1" 404 Not Found
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [16272]
+INFO:     Started server process [4236]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  StatReload detected changes in 'frontend\analytics_ui.py'. Reloading...
+ INFO:     127.0.0.1:60173 - "GET /expenses//add_update/2024-08-01 HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:60184 - "GET /expenses//add_update/2024-08-01 HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:60186 - "GET /expenses/add_update/2024-08-01 HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:60191 - "GET /expenses/add_update/2024-08-01 HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:60193 - "GET /expenses/add_update/2024-08-01 HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:60215 - "GET /expenses/add_update/2024-08-01 HTTP/1.1" 404 Not Found
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [4236]
+INFO:     Started server process [11472]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  StatReload detected changes in 'frontend\add_update_ui.py'. Reloading...
+ {"timestamp": "2026-01-01T17:15:11.282945", "level": "INFO", "message": "Fetching expenses", "module": "pylogger", "file": "pylogger.py", "line": 43, "request_id": "59a57bad-544a-4811-9147-49a2bb2956b0", "job_id": null, "task_id": null, "pipeline": "expense_api", "route": "/expenses/2024-08-01", "date": "2024-08-01"}
+{"timestamp": "2026-01-01T17:15:11.292115", "level": "INFO", "message": "Expenses fetched", "module": "pylogger", "file": "pylogger.py", "line": 43, "request_id": "59a57bad-544a-4811-9147-49a2bb2956b0", "job_id": null, "task_id": null, "pipeline": "expense_api", "route": "/expenses/2024-08-01", "count": 5}
+INFO:     127.0.0.1:60257 - "GET /expenses/add_update/2024-08-01 HTTP/1.1" 200 OK
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [11472]
+INFO:     Started server process [9544]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  StatReload detected changes in 'frontend\add_update_ui.py'. Reloading...
+ {"timestamp": "2026-01-01T17:15:44.487156", "level": "INFO", "message": "Fetching expenses", "module": "pylogger", "file": "pylogger.py", "line": 43, "request_id": "106ded21-038f-4ea7-8205-3a0bb6dbabc4", "job_id": null, "task_id": null, "pipeline": "expense_api", "route": "/expenses/2024-08-01", "date": "2024-08-01"}
+{"timestamp": "2026-01-01T17:15:44.490713", "level": "INFO", "message": "Expenses fetched", "module": "pylogger", "file": "pylogger.py", "line": 43, "request_id": "106ded21-038f-4ea7-8205-3a0bb6dbabc4", "job_id": null, "task_id": null, "pipeline": "expense_api", "route": "/expenses/2024-08-01", "count": 5}
+INFO:     127.0.0.1:60274 - "GET /expenses/add_update/2024-08-01 HTTP/1.1" 200 OK
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [9544]
+INFO:     Started server process [7940]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+{"timestamp": "2026-01-01T17:15:48.263923", "level": "INFO", "message": "Updating expenses", "module": "pylogger", "file": "pylogger.py", "line": 43, "request_id": "cb205436-bebf-4b36-8f60-31ad8b001fe3", "job_id": null, "task_id": null, "pipeline": "expense_api", "route": "/expenses/2024-08-01", "date": "2024-08-01", "count": 6}
+INFO:     127.0.0.1:60275 - "POST /expenses/add_update/2024-08-01 HTTP/1.1" 200 OK
+{"timestamp": "2026-01-01T17:16:00.320817", "level": "INFO", "message": "Fetching expenses", "module": "pylogger", "file": "pylogger.py", "line": 43, "request_id": "22ad509c-24d2-4e4c-ae75-bc49d5d81500", "job_id": null, "task_id": null, "pipeline": "expense_api", "route": "/expenses/2024-08-01", "date": "2024-08-01"}
+{"timestamp": "2026-01-01T17:16:00.325030", "level": "INFO", "message": "Expenses fetched", "module": "pylogger", "file": "pylogger.py", "line": 43, "request_id": "22ad509c-24d2-4e4c-ae75-bc49d5d81500", "job_id": null, "task_id": null, "pipeline": "expense_api", "route": "/expenses/2024-08-01", "count": 6}
+INFO:     127.0.0.1:60288 - "GET /expenses/add_update/2024-08-01 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60289 - "POST /expenses/analytics/ HTTP/1.1" 200 OK
+WARNING:  StatReload detected changes in 'frontend\analytics_ui.py'. Reloading...
+ INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [7940]
+INFO:     Started server process [9112]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  StatReload detected changes in 'frontend\analytics_ui.py'. Reloading...
+ {"timestamp": "2026-01-01T17:21:57.918294", "level": "INFO", "message": "Fetching expenses", "module": "pylogger", "file": "pylogger.py", "line": 43, "request_id": "5615d286-7bfc-4252-93b0-adfb2ed2c0e2", "job_id": null, "task_id": null, "pipeline": "expense_api", "route": "/expenses/2024-08-01", "date": "2024-08-01"}
+{"timestamp": "2026-01-01T17:21:57.924568", "level": "INFO", "message": "Expenses fetched", "module": "pylogger", "file": "pylogger.py", "line": 43, "request_id": "5615d286-7bfc-4252-93b0-adfb2ed2c0e2", "job_id": null, "task_id": null, "pipeline": "expense_api", "route": "/expenses/2024-08-01", "count": 6}
+INFO:     127.0.0.1:60369 - "GET /expenses/add_update/2024-08-01 HTTP/1.1" 200 OK
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [9112]
+INFO:     Started server process [15848]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+{"timestamp": "2026-01-01T17:22:01.902323", "level": "INFO", "message": "Fetching expenses", "module": "pylogger", "file": "pylogger.py", "line": 43, "request_id": "1b6ec321-2731-465b-b8af-78cb8d59a838", "job_id": null, "task_id": null, "pipeline": "expense_api", "route": "/expenses/2024-08-01", "date": "2024-08-01"}
+{"timestamp": "2026-01-01T17:22:01.906553", "level": "INFO", "message": "Expenses fetched", "module": "pylogger", "file": "pylogger.py", "line": 43, "request_id": "1b6ec321-2731-465b-b8af-78cb8d59a838", "job_id": null, "task_id": null, "pipeline": "expense_api", "route": "/expenses/2024-08-01", "count": 6}
+INFO:     127.0.0.1:60375 - "GET /expenses/add_update/2024-08-01 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60387 - "POST /expenses/analytics/ HTTP/1.1" 200 OK
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [15848]
+INFO:     Stopping reloader process [16276]
